@@ -182,7 +182,13 @@
                         <span class="absolute top-3 right-3 text-2xl group-hover:scale-125 transition-transform">🔊</span>
                         <div class="w-20 h-20 mb-2 flex items-center justify-center">
                             <!-- Doctor SVG -->
-                            <svg class="w-16 h-16 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                            <svg class="w-16 h-16 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
+                                <path d="M12 3v2m-1-1h2"></path>
+                                <path d="M6 21v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1"></path>
+                                <path d="M9 15v2a3 3 0 0 0 6 0v-2"></path>
+                                <circle cx="15" cy="18" r="1" fill="currentColor"></circle>
+                            </svg>
                         </div>
                         <div class="flex gap-2 font-black text-4xl hanzi-font text-slate-800">
                             <div class="flex flex-col items-center">
@@ -1148,7 +1154,7 @@
             {
                 type: 'image',
                 questionText: 'Who is represented by this medical avatar icon?',
-                svgIcon: `<svg class="w-20 h-20 mx-auto text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`,
+                svgIcon: `<svg class="w-20 h-20 mx-auto text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path><path d="M12 3v2m-1-1h2"></path><path d="M6 21v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1"></path><path d="M9 15v2a3 3 0 0 0 6 0v-2"></path><circle cx="15" cy="18" r="1" fill="currentColor"></circle></svg>`,
                 options: ['商人', '老师', '医生', '妈妈'],
                 correctIdx: 2
             },
